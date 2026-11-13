@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-connect`](https://www.npmjs.com/package/@aws-sdk/client-connect/v/3.1167.0).
+[`@aws-sdk/client-connect`](https://www.npmjs.com/package/@aws-sdk/client-connect/v/3.1168.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-connect - [https://cloud-sdk-builds.github.io/?sdk=client-connect](https://cloud-sdk-builds.github.io/?sdk=client-connect)
-- @aws-sdk/client-connect v3.1167.0 - [https://cloud-sdk-builds.github.io/?sdk=client-connect&version=3.1167.0](https://cloud-sdk-builds.github.io/?sdk=client-connect&version=3.1167.0)
+- @aws-sdk/client-connect v3.1168.0 - [https://cloud-sdk-builds.github.io/?sdk=client-connect&version=3.1168.0](https://cloud-sdk-builds.github.io/?sdk=client-connect&version=3.1168.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connect@3.1167.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connect@3.1168.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-fGxb0tXfooWtsG3kGy87zoe02b9LpKibjQirThMLn3BaMJu/QnveG+WcElMbh/ez
+sha384-zoRVNR36J0hMKzHnWO+f+ye+muNMHVJ1+NXxiH+5BD2j4e55ftxCHdV8ykDc1ZFY
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-connect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connect@3.1167.0/index.min.mjs"
+            "@aws-sdk/client-connect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connect@3.1168.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connect@3.1167.0/index.min.mjs": "sha384-fGxb0tXfooWtsG3kGy87zoe02b9LpKibjQirThMLn3BaMJu/QnveG+WcElMbh/ez"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connect@3.1168.0/index.min.mjs": "sha384-zoRVNR36J0hMKzHnWO+f+ye+muNMHVJ1+NXxiH+5BD2j4e55ftxCHdV8ykDc1ZFY"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-connect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connect@3.1167.0/index.min.mjs"
+                        "@aws-sdk/client-connect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connect@3.1168.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connect@3.1167.0/index.min.mjs": "sha384-fGxb0tXfooWtsG3kGy87zoe02b9LpKibjQirThMLn3BaMJu/QnveG+WcElMbh/ez"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-connect@3.1168.0/index.min.mjs": "sha384-zoRVNR36J0hMKzHnWO+f+ye+muNMHVJ1+NXxiH+5BD2j4e55ftxCHdV8ykDc1ZFY"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1167.0`)
+* Always pin to a specific version (`@3.1168.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-connect/blob/refs/tags/3.1167.0/LICENSE
+https://github.com/cloud-sdk-builds/client-connect/blob/refs/tags/3.1168.0/LICENSE
 ```
 
 ---
